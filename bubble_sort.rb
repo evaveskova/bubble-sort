@@ -19,6 +19,7 @@ def bubble_sort(array)
   return array
 end
 
+
 #bubble_sort_by
 def bubble_sort_by(array)
   switch = true
