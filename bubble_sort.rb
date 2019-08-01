@@ -1,5 +1,6 @@
 test = [3, 18, 17, 28, 2]
 
+#bubble_sort
 def bubble_sort(array)
   arr = array.length
 
@@ -18,7 +19,7 @@ def bubble_sort(array)
   return array
 end
 
-
+#bubble_sort_by
 def bubble_sort_by(array)
   switch = true
   while switch
@@ -32,6 +33,7 @@ def bubble_sort_by(array)
   end
 end
 
+#test given on The Odin Project
 bubble_sort_by(["hi","hello","hey"]) do |left,right|
    left.length - right.length
  end
